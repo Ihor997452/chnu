@@ -1,0 +1,184 @@
+#table_1{
+	width: 120px;
+	border: 2px solid red;
+}
+
+.elements_1:nth-child(odd) {
+	background: orange;
+}
+.elements_1:nth-child(even) {
+	background: yellow;
+}
+
+.elements_1{
+	border: 2px solid black;
+	padding: 10px;
+	font-weight: 600;
+}
+
+#table_2{
+	margin-top: 100px;
+	width: 200px;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.elements_2{
+	border: 1px solid black;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#table_3{
+	border-collapse: collapse;
+	width: 400px;
+	margin-top: 100px;
+}
+
+.elements_3_1, .elements_3_2, .elements_3_3, .elements_3_4{
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.elements_3_1{
+	width: 10%;
+}
+
+.elements_3_2{
+	width: 40%;
+}
+
+.elements_3_3{
+	width: 30%;
+}
+
+.elements_3_4{
+	width: 20%;
+}
+
+.yellow{
+	background: #FFD966;
+}
+
+.grey{
+	background: #E7E6E6;
+}
+
+.blue{
+	background: #9CC2E5;
+}
+
+.green{
+	background: #538135;
+}
+
+#table_4{
+	border: 1px solid #6699CC;
+	width: 400px;
+	margin-top: 100px;
+}
+
+.el_4{
+	border: 2px solid #6699CC;
+	color: #0033A5;
+	padding: 10px;
+}
+
+#table_5{
+	width: 300px;
+	margin-top: 100px;
+	border: 2px solid #923000;
+	border-collapse: collapse;
+	font-family: cursive;
+}
+
+.el_5_1, .el_5_2{
+	border: 2px solid #923000;
+}
+
+.el_5_1{
+	background: #2E4E96;
+}
+
+.el_5_2{
+	background: #F3E1C7;
+}
+
+.header_5{
+	height: 50px;
+	vertical-align: top;
+	font-size: 20px;
+}
+
+.footer_5{
+	height: 150px;
+	vertical-align: top;
+	font-size: 20px;
+}
+
+#table_6{
+	width: 300px;
+	border: 3px solid #89AB64;
+	border-collapse: collapse;
+	margin-top: 100px;
+	font-family: cursive;
+}
+
+.el_6_1, .el_6_2, .el_6_3{
+	border: 3px solid #89AB64;
+}
+
+.el_6_1{
+	height: 40px;
+	width: 60%;
+	background: #16470B;
+	color: #C1B92C;
+}
+
+.el_6_2{
+	width: 40%;
+	background: #C4BB2D;
+}
+
+.el_6_3{
+	height: 150px;
+	vertical-align: top;
+	background: #DADDC7;
+}
+
+#table_7{
+	width: 300px;
+	border: 3px solid #8F2D0C;
+	border-collapse: collapse;
+	margin-top: 100px;
+	font-family: cursive;
+}
+
+.el_7_1, .el_7_2, .el_7_3, .el_7_4{
+	border: 2px solid #8F2D0C;
+}
+
+.el_7_1{
+	width: 30%;
+	color: white;
+	background: #480468;
+}
+
+.el_7_2{
+	width: 70%;
+	height: 60px;
+	color: #3E1351;
+	background: #A27EB3;
+	font-family: none;
+	font-size: 23px;
+}
+
+.el_7_3{
+	background: #E5C9F2;
+}
+
+.el_7_4{
+	height: 150px;
+	background: #F3E1C7;
+}
