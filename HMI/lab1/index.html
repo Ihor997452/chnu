@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Lab1_1</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="script/script.js"></script>
 </head>
 <body>
@@ -25,6 +26,37 @@
         <p class="finalPrice">Final Price: <span id="finalPrice">00.00</span>$</p>
     </section>
 
+    <section class="part2">
+
+        <p>Picture Amount: <span id="pictureAmount2">0</span></p>
+        <div class="buttons">
+            <input type="button" value="+1" id="more">
+            <input type="button" value="-1" id="less">
+        </div>
+
+        <br>
+
+        <div class="checkboxes">
+            10x15<input type="checkbox" name="size" id="10x15_2" value="10x15" checked>
+            15x20<input type="checkbox" name="size" id="15x20_2" value="15x20">
+            20x30<input type="checkbox" name="size" id="20x30_2" value="20x30">
+        </div>
+
+        <p>Discount: <span id="discount_2">00</span>%</p>
+        <p class="finalPrice">Final Price: <span id="finalPrice_2">00.00</span>$</p>
+
+    </section>
+
+    <section class="part3">
+
+        <p>Picture Amount: <span id="pictureAmount3">0</span></p>
+        <input type="range" min="0" max="999" value="0" step="1" name="amount" id="amount">
+        <p>Size: <span id="sizeOut">10x15</span> </p>
+        <input type="range" min="0" max="2" value="0" step="1" name="sizeVal" id="sizeVal">
+        <p>Discount: <span id="discount_3">00</span>%</p>
+        <p class="finalPrice">Final Price: <span id="finalPrice_3">00.00</span>$</p>
+
+    </section>
 </div>
 
 </body>
