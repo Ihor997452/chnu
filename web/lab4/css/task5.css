@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	font-family: 'Montserrat';
+	background: black;
+    color: white;
+    font-size: 20px;
+}
+
+div {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	display: none;
+}
+
+label {
+	margin: 40px;
+	cursor: pointer;
+}
+
+label::before {
+	content: '';
+	display: block;
+	position: relative;
+
+	height: 20px;
+	width: 20px;
+	top: 25px;
+	left: -30px;
+
+	border: 2px solid white;
+	border-radius: 100%;
+
+	z-index: 1;
+}
+
+input:checked ~ label:before{
+	background: white;
+}

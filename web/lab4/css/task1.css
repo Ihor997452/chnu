@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	font-family: 'Montserrat';
+    background: black;
+	font-size: 20px;
+}
+
+p {
+	text-align: center;
+	color: green;
+}
+
+.red-text {
+	color: red;
+}
+
+#pink-text {
+	color: palevioletred;
+}
+
+li, a {
+	color: #FF32E7;
+	list-style-type: none;
+}
+
+.main-menu {
+	color: #5AFF08;
+	list-style-type: disc;
+}
+
+.last {
+	list-style-type: square;
+}
+
+.decorations {
+	text-decoration: none;
+}

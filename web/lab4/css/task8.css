@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	font-family: 'Montserrat';
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > img {
+    height: 200px;
+}
+
+.container {
+    margin: auto;
+    width: 800px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-top: 1px solid #000;
+
+    height: 150px;
+}
+
+.box > img {
+    height: 130px;
+}
+
+.box > div > p:nth-child(2) {
+    color: gray;
+}

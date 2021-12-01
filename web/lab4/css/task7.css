@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	font-family: 'Montserrat';
+    background: url("../Task_7/0.png");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+
+.img1 {
+    width: 1280px;
+    background: url("../Task_7/6.png");
+    background-position-x: 20%;
+    background-position-y: 25%;
+}
+
+.img2 {
+    background: url("../Task_7/5.png");
+    background-position-x: 25%;
+    background-position-y: 65%;
+}
+
+.img3 {
+    background: url("../Task_7/2.png");
+    background-position: right;
+}
+
+.img4 {
+    background: url("../Task_7/3.png");
+    background-position-x: 75%;
+    background-position-y: center;
+}
+
+.img5 {
+    background: url("../Task_7/4.png");
+    background-position-x: 85%;
+    background-position-y: 65%;
+}
+
+.img6 {
+    background: url("../Task_7/1.png");
+    background-position-y: bottom;
+    height: 100vh;
+}
+
+.img {
+    background-repeat: no-repeat;
+}
